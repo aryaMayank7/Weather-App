@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import React, { useEffect, useState } from "react";
 
@@ -36,9 +35,9 @@ function App() {
           <>
             <div className="info">
               <h2 className="location">{search}</h2>
-              <h1 className="temp">{city.temp}</h1>
+              <h1 className="temp">{city.temp}°C</h1>
               <h3 className="tempmin_max">
-                Min:{city.temp_min} | Max: {city.temp_max}
+                Min:{city.temp_min}°C | Max: {city.temp_max}°C
               </h3>
             </div>
             <div className="wave -one"></div>
